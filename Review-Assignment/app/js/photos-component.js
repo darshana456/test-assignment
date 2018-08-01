@@ -22,7 +22,7 @@ var photosComponent = function() {
   var showPhotos = function() {
     $.get('/mustache/photos.mustache', function(template) {
       var info = Mustache.to_html(template, photos);
-      $('.timeline-info').html(info);
+      $('.dashboard-info').html(info);
       onPhotoClick(data);
     });
   };

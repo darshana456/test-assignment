@@ -6,7 +6,7 @@ var timelineComponent = function(postData) {
     alterRelativeTime();
     $.get('/mustache/timeline.mustache', function(template) {
       var info = Mustache.to_html(template, postData);
-      $('.timeline-info').html(info);
+      $('.dashboard-info').html(info);
       onPostClick(postData);
     });
   }
@@ -56,6 +56,7 @@ var timelineComponent = function(postData) {
       var imageUrl = $("#inputImage").val();
       var previous = date.getTime();
       var dataToPost = {
+          name: _dataUser.users.name,
           title: title,
           time: previous,
           Description: description,
@@ -66,7 +67,7 @@ var timelineComponent = function(postData) {
       postData.post.unshift(dataToPost);
       $.get('/mustache/timeline.mustache', function(template) {
         var info = Mustache.to_html(template, postData);
-        $('.timeline-info').html(info);
+        $('.dashboard-info').html(info);
         onAlterPostData();
         $("#myModal").modal('hide');
       });

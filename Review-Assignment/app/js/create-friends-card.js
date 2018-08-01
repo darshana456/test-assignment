@@ -6,7 +6,7 @@ var friendsCardCreation = function() {
     $.get('/mustache/friends-card.mustache', function(template) {
       var info = Mustache.to_html(template, friendsList);
       $(".friends-card").html(info);
-      $('[data-toggle="tooltip"]').tooltip(); 
+      $('[data-toggle="tooltip"]').tooltip();
     });
   }
 

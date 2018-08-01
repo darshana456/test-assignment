@@ -7,16 +7,20 @@ var navbarComponent = function(_dataUser) {
     image: "/images/avatar-1.png",
     post: [
       {
+        name: "Joseph Villa",
         title: "Title",
         Description: "Look deep into nature, and then you will understand everything better.",
         imageUrl: "/images/hero-img.jpg",
-        relativeTime: '50 minutes ago'
+        time: 323490348894,
+        relativeTime: ''
       },
       {
+        name: "Joseph Villa",
         title: "Title",
         Description: "Look deep into nature, and then you will understand everything better.",
         imageUrl: "/images/hero-img.jpg",
-        relativeTime: '50 minutes ago'
+        time: 323490348894,
+        relativeTime: ''
       },
     ]
   };

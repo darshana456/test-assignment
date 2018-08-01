@@ -1,5 +1,6 @@
 var dashboardComponent = function(_dataUser) {
   var dashboardObject = {};
+  var dataHeader;
 
   dashboardObject.addDashBoard = function() {     //create dashboard on authentication
     data = {image: "/images/hero-img.jpg"};
@@ -25,8 +26,11 @@ var dashboardComponent = function(_dataUser) {
   }
 
   dashboardObject.addDashBoardHeader = function() {        //show logged-in user-name
+    var str = _dataUser.users.name;
+    var res = str.split(" ");
+    dataHeader = {firstName: res[0], image: _dataUser.users.profileImg};
     $.get('/mustache/dashboard-header.mustache', function(template) {
-      var info = Mustache.to_html(template, _dataUser);
+      var info = Mustache.to_html(template, dataHeader);
       $(".login-user").html(info);
       onLogOut();
     });

@@ -4,7 +4,7 @@ var friendsComponent = function(_dataUser, friendsData) {
   friendsObject.addFriends = function() {    //creates friends tab
     $.get('/mustache/friends.mustache', function(template) {
       var info = Mustache.to_html(template, friendsData);
-      $('.timeline-info').html(info);
+      $('.dashboard-info').html(info);
       onFollowEvent(friendsData);
     });
   }

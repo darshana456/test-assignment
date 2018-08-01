@@ -7,13 +7,13 @@ var aboutComponent = function(_dataUser) {
     $(".about .marked").show();
     $.get('/mustache/about-content.mustache', function(template) {
       var info = Mustache.to_html(template, _dataUser);
-      $('.timeline-info').html(info);
+      $('.dashboard-info').html(info);
       onEditDetails();
     });
 
     $.get('/mustache/about-occupation.mustache', function(template) {
       var info = Mustache.to_html(template, _dataUser);
-      $('.timeline-info').append(info);
+      $('.dashboard-info').append(info);
       onEditOccupation();
     });
   };
@@ -66,6 +66,8 @@ var aboutComponent = function(_dataUser) {
     aboutComp.addAbout(_dataUser);
     var profileComp = new profileComponent(_dataUser);
     profileComp.addProfileCard();
+    var dashboard = new dashboardComponent(_dataUser);
+    dashboard.addDashBoardHeader();
   };
 
   var onEditOccupation = function() {

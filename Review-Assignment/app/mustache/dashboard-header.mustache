@@ -1,7 +1,7 @@
-{{#users}}
+
 <li class="logged-in-user-name-container">
   <a class="logged-in-user-name">
-    <span><img src="/images/avatar-1.png" class="logged-in-user-image"></img></span>{{name}}
+    <span><img src={{image}} class="logged-in-user-image"></img></span>{{firstName}}
   </a>
 </li>
 <li class="logout"><a><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
@@ -10,4 +10,3 @@
     <i class="fa fa-bars"></i>
   </a>
 </li>
-{{/users}}

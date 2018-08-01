@@ -17,8 +17,8 @@ body {
       cursor: pointer;
       text-decoration: none; }
     .wrapper .header-content .logged-in-user-name-container {
-      left: 79px;
-      margin-top: 1px;
+      left: 331px;
+      margin-top: -1px;
       position: relative; }
     .wrapper .header-content .login-user a {
       color: #ffffff; }
@@ -132,7 +132,7 @@ body {
     position: relative;
     top: -200px;
     width: 280.75px; }
-  .wrapper .timeline-info {
+  .wrapper .dashboard-info {
     margin-top: -10px; }
   .wrapper .followers {
     text-align: center; }
@@ -144,10 +144,10 @@ body {
   .wrapper .nav-item {
     background-color: #ffffff;
     text-align: center;
-    height: 58px;
+    height: 57px;
     width: 25%; }
   .wrapper .logged-in-user-image {
-    width: 19%;
+    width: 11%;
     margin-top: -13px;
     padding: 4px; }
   .wrapper .logged-in-user-name {
@@ -179,7 +179,7 @@ body {
   .wrapper .about-header {
     background-color: #ffffff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    color: #757575;
+    color: about-header-color;
     padding: 17px;
     padding-top: 2px; }
   .wrapper .about-header-text {
@@ -265,7 +265,8 @@ body {
     padding: 12px;
     font-size: 18px; }
   .wrapper .post-button {
-    float: right; }
+    float: right;
+    margin-right: 7px; }
   .wrapper input[type=text] {
     width: 80%; }
   .wrapper input[type=url] {
@@ -334,7 +335,8 @@ body {
     position: relative;
     padding: 0 20px 20px 30px;
     margin-left: 20px;
-    border-left: 3px solid #cccccc; }
+    border-left: 3px solid #cccccc;
+    margin-right: -12px; }
   .wrapper .timeline li:first-child .item span {
     width: 10px;
     height: 10px;
@@ -398,7 +400,7 @@ body {
     padding-top: 35px; } }
 @media screen and (max-width: 468px) and (min-width: 376px) {
   .wrapper .about {
-    margin-bottom: 20px; }
+    margin-bottom: -1px; }
   .wrapper .follow-card {
     display: none; }
   .wrapper .hero-image {
@@ -430,9 +432,11 @@ body {
   .wrapper .nav-content {
     width: 124%; }
   .wrapper .nav-item {
+    background-color: #ffffff;
     width: 100%;
-    z-index: 20;
-    background-color: #ffffff; }
+    z-index: 20; }
+  .wrapper .sign-up {
+    margin: 32px; }
   .wrapper .timeline {
     position: relative;
     top: -54px; }
@@ -505,6 +509,8 @@ body {
       width: 24%; }
   .wrapper .secondary-text {
     font-size: 9px; }
+  .wrapper .sign-up {
+    margin: 31px; }
   .wrapper .timeline {
     position: relative;
     top: -54px; }
