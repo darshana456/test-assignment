@@ -1,0 +1,533 @@
+body {
+  background-color: #e5e5e5; }
+
+.wrapper {
+  background-color: #e5e5e5; }
+  .wrapper .header-content {
+    background-color: #008ef1;
+    height: 50px; }
+    .wrapper .header-content .logo {
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: bold; }
+    .wrapper .header-content .nav > li > a:focus, .wrapper .header-content .nav > li > a:hover {
+      background-color: transparent !important;
+      border-style: none;
+      color: #ffffff;
+      cursor: pointer;
+      text-decoration: none; }
+    .wrapper .header-content .logged-in-user-name-container {
+      left: 79px;
+      margin-top: 1px;
+      position: relative; }
+    .wrapper .header-content .login-user a {
+      color: #ffffff; }
+    .wrapper .header-content .logout {
+      margin-top: 4px; }
+  .wrapper .add-on {
+    display: block;
+    margin-bottom: 20px;
+    position: relative; }
+    .wrapper .add-on .add-on-icon {
+      display: inline-block;
+      float: left;
+      height: 3rem;
+      line-height: 3rem;
+      padding-top: 2px;
+      vertical-align: middle;
+      width: 35px; }
+    .wrapper .add-on .add-input {
+      border-radius: 0;
+      border-width: 0 0 1px;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.12);
+      box-shadow: inset 0 -1px 0 transparent;
+      box-sizing: border-box;
+      background: 0 0;
+      display: block;
+      font-size: 12px;
+      padding: 12px 4px;
+      max-height: 100px;
+      width: 100%; }
+    .wrapper .add-on .add-input-wrapper {
+      display: inline-block;
+      margin-bottom: 0;
+      padding-top: 4px;
+      position: relative;
+      width: calc(100% - 40px); }
+    .wrapper .add-on .line {
+      bottom: 0;
+      display: block;
+      left: 0;
+      position: absolute;
+      width: 100%; }
+    .wrapper .add-on .check {
+      padding-left: 0;
+      top: 0;
+      left: -11px;
+      position: relative;
+      padding-left: 1.5rem;
+      text-align: left;
+      color: #333;
+      display: block; }
+    .wrapper .add-on label {
+      color: #727272;
+      font-weight: normal;
+      left: 4px;
+      position: absolute;
+      text-transform: initial;
+      top: 16px;
+      pointer-events: none;
+      transition: all 150ms ease-out; }
+    .wrapper .add-on .checkbox > label {
+      padding-left: 1px;
+      position: static; }
+  .wrapper .error {
+    color: #B22222;
+    display: block;
+    font-size: 12px;
+    font-weight: 700; }
+  .wrapper .friends-card {
+    margin-left: 15px;
+    margin-top: 20px; }
+    .wrapper .friends-card .friends-img {
+      padding: 2px;
+      width: 20%; }
+  .wrapper .main-content {
+    margin-top: -21px; }
+  .wrapper .for-sign-up {
+    position: relative;
+    top: 174px; }
+  .wrapper .sign-up {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    height: 310px; }
+  .wrapper .single-form-element {
+    padding: 6px 37px;
+    font-size: 16px; }
+  .wrapper .for-email {
+    padding-top: 40px; }
+  .wrapper .input {
+    width: 100%; }
+  .wrapper .form-header {
+    font-weight: bold;
+    font-size: 16px; }
+  .wrapper .form-heading {
+    padding-top: 16px;
+    padding-left: 37px; }
+  .wrapper .contain-submit {
+    margin-left: 36px; }
+  .wrapper .submit {
+    background-color: #008ef1;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+    width: 150px; }
+  .wrapper .hero-image {
+    width: 100%; }
+  .wrapper .card-content {
+    background-color: #ffffff;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    top: -200px;
+    width: 280.75px; }
+  .wrapper .timeline-info {
+    margin-top: -10px; }
+  .wrapper .followers {
+    text-align: center; }
+  .wrapper .followers-count {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .wrapper .dashboard-nav {
+    height: 58px; }
+  .wrapper .nav-item {
+    background-color: #ffffff;
+    text-align: center;
+    height: 58px;
+    width: 25%; }
+  .wrapper .logged-in-user-image {
+    width: 19%;
+    margin-top: -13px;
+    padding: 4px; }
+  .wrapper .logged-in-user-name {
+    color: #ffffff;
+    font-size: 16px; }
+  .wrapper .nav-content {
+    width: 100%; }
+  .wrapper .login-user {
+    height: 50px; }
+  .wrapper .nav-link {
+    color: #666;
+    font-size: 16px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px; }
+  .wrapper .nav-bar {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    height: 58px;
+    margin-bottom: 30px; }
+  .wrapper .marked {
+    background-color: #1b8bf9;
+    height: 4px;
+    margin-top: 18px;
+    width: 100%; }
+  .wrapper .about {
+    background-color: #ffffff;
+    margin-bottom: 20px; }
+  .wrapper .about-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    color: #757575;
+    padding: 17px;
+    padding-top: 2px; }
+  .wrapper .about-header-text {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    vertical-align: middle; }
+  .wrapper .about-content {
+    font-size: 15px;
+    padding: 20px; }
+  .wrapper .info {
+    padding: 10px; }
+  .wrapper .desc {
+    color: #868e96; }
+  .wrapper .about-title {
+    font-weight: 600; }
+  .wrapper .profile-img {
+    width: 100%; }
+  .wrapper .profile-pic {
+    margin: 0 15px;
+    padding-top: 15px; }
+  .wrapper .followers h4 {
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 10px; }
+  .wrapper .followers h5 {
+    font-style: 18px;
+    margin-bottom: 10px; }
+  .wrapper .card-block {
+    background-color: #ffffff;
+    padding: 20px; }
+  .wrapper .followers-prime-text {
+    color: #2196F3;
+    font-size: 24px; }
+  .wrapper .photos-block {
+    background-color: #ffffff; }
+    .wrapper .photos-block .photos-img {
+      height: 100px;
+      width: 24%; }
+  .wrapper .photo-in-modal {
+    width: 100%; }
+  .wrapper .friend-block {
+    background-color: #ffffff;
+    height: 144px;
+    margin-bottom: 24px;
+    margin-left: 2px; }
+  .wrapper .friend-image {
+    margin-top: 8px; }
+  .wrapper .friend-image-container {
+    margin-left: -4px; }
+  .wrapper .friend-content {
+    padding-top: 28px; }
+  .wrapper .follow-card {
+    margin-left: 15px;
+    margin-top: -167px;
+    width: 280.75px; }
+  .wrapper .follow-person {
+    padding: 5px; }
+  .wrapper .follow-card {
+    margin-left: 15px; }
+  .wrapper .follow-people-img {
+    width: 100%; }
+  .wrapper .follow-people-content {
+    padding: 0px; }
+  .wrapper .icon {
+    display: none; }
+  .wrapper .notify {
+    color: #B22222;
+    margin-left: 38px; }
+  .wrapper .page-info {
+    color: #222222;
+    display: none;
+    padding: 12px; }
+    .wrapper .page-info h3 {
+      margin-top: 2px; }
+  .wrapper .prime-text {
+    color: #222222;
+    font-size: 16px; }
+  .wrapper .posted-image {
+    width: 100%; }
+  .wrapper .post-content {
+    padding: 12px;
+    font-size: 18px; }
+  .wrapper .post-button {
+    float: right; }
+  .wrapper input[type=text] {
+    width: 80%; }
+  .wrapper input[type=url] {
+    width: 80%; }
+  .wrapper .for-navigation .nav > li > a:focus, .wrapper .for-navigation .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    border-style: none; }
+  .wrapper .for-navigation .nav > li:hover {
+    background-color: #ebebee; }
+  .wrapper .for-navigation .navbar-inverse .navbar-nav > li > a {
+    color: #222222; }
+  .wrapper .edit-details-button {
+    float: right;
+    margin-top: 12px; }
+  .wrapper .edit-occupation-button {
+    float: right;
+    margin-top: 12px; }
+  .wrapper .card {
+    border-radius: 4px; }
+  .wrapper .edit-content {
+    font-size: 14px;
+    margin-top: 10px; }
+    .wrapper .edit-content .check-icon {
+      position: relative;
+      top: -19px; }
+    .wrapper .edit-content .icons-users {
+      padding: 11px; }
+    .wrapper .edit-content .buttons {
+      padding: 10px;
+      text-align: center; }
+      .wrapper .edit-content .buttons .save {
+        margin-right: 10px; }
+  .wrapper .add-post .post-content {
+    font-size: 16px; }
+    .wrapper .add-post .post-content input {
+      width: 100%; }
+  .wrapper .timeline .navbar-nav {
+    width: 100%;
+    margin-left: -29px; }
+  .wrapper .timeline .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #222222; }
+  .wrapper .secondary-text {
+    color: #868e96;
+    font-size: 13px; }
+  .wrapper .timeline-content {
+    box-sizing: border-box;
+    height: auto;
+    margin: 8px 0px auto 29px;
+    padding: 0px;
+    padding-top: 34px; }
+    .wrapper .timeline-content .posted-content {
+      padding: 8px; }
+    .wrapper .timeline-content .title {
+      color: #222222;
+      font-size: 18px; }
+    .wrapper .timeline-content .description {
+      color: #868e96; }
+    .wrapper .timeline-content .timeline-header {
+      padding: 11px; }
+  .wrapper .timeline-content li {
+    position: relative;
+    list-style: none; }
+  .wrapper .timeline li .item {
+    min-height: 20px;
+    position: relative;
+    padding: 0 20px 20px 30px;
+    margin-left: 20px;
+    border-left: 3px solid #cccccc; }
+  .wrapper .timeline li:first-child .item span {
+    width: 10px;
+    height: 10px;
+    left: -6px;
+    top: -8px; }
+  .wrapper .timeline li .item span {
+    color: #ffffff;
+    background-color: #cccccc;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+    text-align: center; }
+  .wrapper .timeline-post {
+    background-color: #ffffff; }
+  .wrapper .timeline-img {
+    width: 100%; }
+
+@media screen and (max-width: 768px) and (min-width: 469px) {
+  .wrapper .about-header-text {
+    font-size: 14px; }
+  .wrapper .about-content {
+    font-size: 13px; }
+  .wrapper .card-content {
+    font-size: 11px;
+    position: relative;
+    top: -66px;
+    word-break: break-all;
+    width: 165px; }
+    .wrapper .card-content h4 {
+      font-size: 14px; }
+    .wrapper .card-content h5 {
+      font-size: 11px; }
+  .wrapper .follow-card {
+    display: none;
+    margin-top: 12px;
+    width: 165px; }
+  .wrapper .card-block {
+    padding: 8px; }
+  .wrapper .followers-prime-text {
+    font-size: 15px; }
+  .wrapper .friend-block {
+    height: 120px; }
+  .wrapper .friend-content {
+    padding-top: 2px; }
+    .wrapper .friend-content h5 {
+      font-size: 14px; }
+    .wrapper .friend-content p {
+      font-size: 12px; }
+    .wrapper .friend-content .follow-button {
+      font-size: 12px; }
+  .wrapper .friend-image {
+    width: 100%; }
+  .wrapper .add-friend-button {
+    font-size: 14px; }
+  .wrapper .nav-content {
+    width: auto; }
+  .wrapper .timeline-content {
+    padding-top: 35px; } }
+@media screen and (max-width: 468px) and (min-width: 376px) {
+  .wrapper .about {
+    margin-bottom: 20px; }
+  .wrapper .follow-card {
+    display: none; }
+  .wrapper .hero-image {
+    height: 133px; }
+  .wrapper .friend-block {
+    margin-left: -12px; }
+  .wrapper .friends-card {
+    display: none; }
+  .wrapper .friend-content {
+    padding: 0; }
+  .wrapper .friend-image {
+    width: 100%; }
+  .wrapper .card-content {
+    margin: 22px 0px;
+    position: relative;
+    top: -20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 137x;
+    margin-bottom: 64px; }
+  .wrapper .followers h4 {
+    font-size: 24px; }
+  .wrapper .followers h5 {
+    font-size: 16px; }
+  .wrapper .followers-prime-text {
+    font-size: 24px; }
+  .wrapper .page-info {
+    display: inline-block; }
+  .wrapper .nav-content {
+    width: 124%; }
+  .wrapper .nav-item {
+    width: 100%;
+    z-index: 20;
+    background-color: #ffffff; }
+  .wrapper .timeline {
+    position: relative;
+    top: -54px; }
+    .wrapper .timeline .navbar-nav {
+      width: 100%;
+      background-color: #ffffff;
+      font-size: 15px; }
+    .wrapper .timeline .navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #222222; }
+  .wrapper .timeline-content {
+    margin: 10px -7px auto -4px; }
+    .wrapper .timeline-content .timeline-header {
+      padding: 6px; }
+    .wrapper .timeline-content .title {
+      color: #222222;
+      font-size: 15px; }
+    .wrapper .timeline-content .description {
+      color: #868e96;
+      font-size: 11px; }
+    .wrapper .timeline-content .posted-content {
+      padding: 6px;
+      margin-top: -7px; }
+    .wrapper .timeline-content .timeline-post {
+      margin-right: -15px; } }
+@media screen and (max-width: 375px) and (min-width: 321px) {
+  .wrapper .about {
+    margin-bottom: 20px; }
+  .wrapper .card-content {
+    margin: 22px 0px;
+    position: relative;
+    top: -20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 137x;
+    margin-bottom: 64px; }
+  .wrapper .follow-card {
+    display: none; }
+  .wrapper .followers h4 {
+    font-size: 24px; }
+  .wrapper .followers h5 {
+    font-size: 16px; }
+  .wrapper .followers-prime-text {
+    font-size: 24px; }
+  .wrapper .friend-block {
+    margin-left: -12px; }
+  .wrapper .friends-card {
+    display: none; }
+  .wrapper .friend-content {
+    padding: 0; }
+  .wrapper .friend-image {
+    width: 100%; }
+  .wrapper .card-block {
+    padding: 12px; }
+  .wrapper .about {
+    margin-bottom: 0px; }
+  .wrapper .nav-content {
+    width: 124%; }
+  .wrapper .nav-item {
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 20; }
+  .wrapper .page-info {
+    display: inline-block; }
+  .wrapper .prime-text {
+    font-size: 11px; }
+  .wrapper .photos-block {
+    background-color: #ffffff; }
+    .wrapper .photos-block .photos-img {
+      height: 100px;
+      width: 24%; }
+  .wrapper .secondary-text {
+    font-size: 9px; }
+  .wrapper .timeline {
+    position: relative;
+    top: -54px; }
+    .wrapper .timeline .navbar-nav {
+      background-color: #ffffff;
+      font-size: 15px;
+      width: 100%; }
+    .wrapper .timeline .navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #222222; }
+  .wrapper .timeline-content {
+    margin: 10px -7px auto -4px; }
+    .wrapper .timeline-content .timeline-header {
+      padding: 6px; }
+    .wrapper .timeline-content .title {
+      color: #222222;
+      font-size: 15px; }
+    .wrapper .timeline-content .description {
+      color: #868e96;
+      font-size: 11px; }
+    .wrapper .timeline-content .posted-content {
+      padding: 6px;
+      margin-top: -7px; }
+    .wrapper .timeline-content .timeline-post {
+      margin-right: -15px; } }
+
+/*# sourceMappingURL=sign-in.css.map */

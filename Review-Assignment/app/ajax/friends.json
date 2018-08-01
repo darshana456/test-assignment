@@ -1,0 +1,74 @@
+{
+  "friends": [
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "0",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "1",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "2",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "3",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "4",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "5",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "6",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "7",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "8",
+      "follow": true
+    },
+    {
+      "name": "Josephin Doe",
+      "profession": "Softwear Engineer at Phoenixcoded",
+      "image": "/images/profile-girl.png",
+      "id": "9",
+      "follow": true
+    }
+  ]
+}

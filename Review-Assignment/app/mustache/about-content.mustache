@@ -1,0 +1,39 @@
+{{#users}}
+<div class="card about details">
+  <div class="about-header">
+    <h3 class="about-header-text">BASIC INFORMATION</h3>
+    <button type="button" class="btn btn-primary edit-details-button"><span class="glyphicon glyphicon-pencil"></span></button>
+  </div>
+  <div class="about-content">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="row info">
+          <div class="col-xs-6 col-sm-6 about-title">Full Name
+          </div>
+          <div  class="col-xs-6 col-sm-6 desc">{{name}}</div>
+        </div>
+        <div class="row info">
+          <div class="col-xs-6 col-sm-6 about-title">Gender
+          </div>
+          <div class="col-xs-6 col-sm-6 desc">{{Gender}}</div>
+        </div>
+        <div class="row info">
+          <div class="col-xs-6 col-sm-6 about-title">Birth Date
+          </div>
+          <div class="col-xs-6 col-sm-6 desc">{{birthDate}}</div>
+        </div>
+        <div class="row info">
+          <div class="col-xs-6 col-sm-6 about-title">Marital Status
+          </div>
+          <div class="col-xs-6 col-sm-6 desc">{{maritalStatus}}</div>
+        </div>
+        <div class="row info">
+          <div class="col-xs-6 col-sm-6 about-title">Location
+          </div>
+          <div class="col-xs-6 col-sm-6 desc">{{location}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{/users}}

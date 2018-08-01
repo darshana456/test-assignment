@@ -1,0 +1,19 @@
+{{#friends}}
+    <div class="col-sm-6">
+      <div class="friend-block row">
+        <div class="col-xs-4 col-sm-4 friend-image-container">
+          <img src={{image}} class="friend-image"></img>
+        </div>
+        <div class="col-xs-8 col-sm-8 friend-content">
+          <h5>{{name}}</h5>
+          <p>{{profession}}</p>
+          {{#follow}}
+            <button type="button" data-info={{id}} class="btn btn-primary btn-md follow-button">Follow</button>
+          {{/follow}}
+          {{^follow}}
+            <button type="button" data-info={{id}} class="btn btn-primary btn-md follow-button">Following</button>
+          {{/follow}}
+        </div>
+      </div>
+    </div>
+{{/friends}}

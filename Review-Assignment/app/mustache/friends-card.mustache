@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="about-header">
+    <h5 class="about-header-text">FRIENDS</h5>
+  </div>
+  <div class="card-block">
+    {{#friends}}
+      <img src={{image}} class="friends-img" data-toggle="tooltip" title={{name}}></img>
+    {{/friends}}
+    {{^friends}}
+      <h4>No friends Exist</h4>
+    {{/friends}}
+  </div>
+</div>

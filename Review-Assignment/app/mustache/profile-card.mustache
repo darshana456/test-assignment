@@ -1,0 +1,28 @@
+{{#users}}
+  <div class="card-content">
+    <div class="profile-pic">
+      <img src={{profileImg}} class="profile-img"></img>
+    </div>
+    <div class="card-block followers">
+      <h4>{{name}}</h4>
+      <h5>{{designation}}</h5>
+      <div class="row followers-count">
+        <div class="col-xs-4 col-sm-4">
+          <div class="followers-prime-text followings">{{followings}}</div>
+          <div>Followings</div>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <div class="followers-prime-text">{{followers}}</div>
+          <div>Followers</div>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <div class="followers-prime-text">{{activities}}</div>
+          <div>Activities</div>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default add-friend-button">ADD AS A FRIEND</button>
+      </div>
+    </div>
+  </div>
+{{/users}}

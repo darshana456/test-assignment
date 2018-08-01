@@ -1,0 +1,910 @@
+$primary-color: #008ef1;
+$page-color: #e5e5e5;
+$light-color: #ffffff;
+$dominant-color: #1b8bf9;
+$mandatory-color: #B22222;
+$dark-color: #222222;
+$label-color: #727272;
+$prime-text: #2196F3;
+$timeline-span-color: #cccccc;
+
+body {
+  background-color: $page-color;
+}
+
+.wrapper {
+  background-color: $page-color;
+
+  .header-content {
+    background-color: $primary-color;
+    height: 50px;
+
+    .logo {
+      color: $light-color;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .nav>li>a:focus, .nav>li>a:hover {
+      background-color: transparent !important;
+      border-style: none;
+      color: $light-color;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .logged-in-user-name-container {
+      left: 79px;
+      margin-top: 1px;
+      position: relative;
+    }
+
+    .login-user {
+      a {
+        color: $light-color;
+      }
+    }
+
+    .logout {
+      margin-top: 4px;
+    }
+
+  }
+
+  .add-on {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+
+    .add-on-icon {
+      display: inline-block;
+      float: left;
+      height: 3rem;
+      line-height: 3rem;
+      padding-top: 2px;
+      vertical-align: middle;
+      width: 35px;
+    }
+
+    .add-input {
+      border-radius: 0;
+      border-width: 0 0 1px;
+      border-style: solid;
+      border-color: rgba(0,0,0,0.12);
+      box-shadow: inset 0 -1px 0 transparent;
+      box-sizing: border-box;
+      background: 0 0;
+      display: block;
+      font-size: 12px;
+      padding: 12px 4px;
+      max-height: 100px;
+      width: 100%;
+    }
+
+    .add-input-wrapper {
+      display: inline-block;
+      margin-bottom: 0;
+      padding-top: 4px;
+      position: relative;
+      width: calc(100% - 40px);
+    }
+
+    .line {
+      bottom: 0;
+      display: block;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+
+    .check {
+      padding-left: 0;
+      top: 0;
+      left: -11px;
+      position: relative;
+      padding-left: 1.5rem;
+      text-align: left;
+      color: #333;
+      display: block;
+    }
+
+    label {
+      color: $label-color;
+      font-weight: normal;
+      left: 4px;
+      position: absolute;
+      text-transform: initial;
+      top: 16px;
+      pointer-events: none;
+      transition: all 150ms ease-out;
+    }
+
+    .checkbox > label {
+      padding-left: 1px;
+      position: static;
+    }
+  }
+
+  .error {
+    color: $mandatory-color;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .friends-card {
+    margin-left: 15px;
+    margin-top: 20px;
+    .friends-img {
+      padding: 2px;
+      width: 20%;
+    }
+  }
+
+  .main-content {
+    margin-top: -21px;
+  }
+
+  .for-sign-up {
+    position: relative;
+    top: 174px;
+  }
+
+  .sign-up {
+    border: 1px solid #000000;
+    background-color: $light-color;
+    height: 310px;
+  }
+
+  .single-form-element {
+    padding: 6px 37px;
+    font-size: 16px;
+  }
+
+  .for-email {
+    padding-top: 40px;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .form-header {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .form-heading {
+    padding-top: 16px;
+    padding-left: 37px;
+  }
+
+  .contain-submit {
+    margin-left: 36px;
+  }
+
+  .submit {
+    background-color: #008ef1;
+    color: $light-color;
+    padding: 8px;
+    text-align: center;
+    width: 150px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .card-content {
+    background-color: $light-color;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    top: -200px;
+    width: 280.75px;
+  }
+
+  .timeline-info {
+    margin-top: -10px;
+  }
+
+  .followers {
+    text-align: center;
+  }
+
+  .followers-count {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .dashboard-nav {
+    height: 58px;
+  }
+
+  .nav-item {
+    background-color: $light-color;
+    text-align: center;
+    height: 58px;
+    width: 25%;
+  }
+
+  .logged-in-user-image {
+    width: 19%;
+    margin-top: -13px;
+    padding: 4px;
+  }
+
+  .logged-in-user-name {
+    color: $light-color;
+    font-size: 16px;
+  }
+
+  .nav-content {
+    width: 100%;
+  }
+
+  .login-user {
+    height: 50px;
+  }
+
+  .nav-link {
+    color: #666;
+    font-size: 16px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .nav-bar {
+    border-color: $light-color;
+    background-color: $light-color;
+    height: 58px;
+    margin-bottom: 30px;
+  }
+
+  .marked {
+    background-color: $dominant-color;
+    height: 4px;
+    margin-top: 18px;
+    width: 100%;
+  }
+
+  .about {
+    background-color: $light-color;
+    margin-bottom: 20px;
+  }
+
+  .about-header {
+    background-color: $light-color;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: #757575;
+    padding: 17px;
+    padding-top: 2px;
+  }
+
+  .about-header-text {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  .about-content {
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .info {
+    padding: 10px;
+  }
+
+  .desc {
+    color: #868e96;
+  }
+
+  .about-title {
+    font-weight: 600;
+  }
+
+  .profile-img {
+    width: 100%;
+  }
+
+  .profile-pic {
+    margin: 0 15px;
+    padding-top: 15px;
+  }
+
+  .followers {
+    h4 {
+      font-size: 18px;
+      font-style: normal;
+      margin-bottom: 10px;
+    }
+    h5 {
+      font-style: 18px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .card-block {
+    background-color: $light-color;
+    padding: 20px;
+  }
+
+  .followers-prime-text {
+    color: $prime-text;
+    font-size: 24px;
+  }
+
+  .photos-block {
+    background-color: $light-color;
+    .photos-img {
+      height: 100px;
+      width: 24%;
+    }
+  }
+
+  .photo-in-modal {
+    width: 100%;
+  }
+
+  .friend-block {
+    background-color: $light-color;
+    height: 144px;
+    margin-bottom: 24px;
+    margin-left: 2px;
+  }
+
+  .friend-image {
+    margin-top: 8px;
+  }
+
+  .friend-image-container {
+    margin-left: -4px;
+  }
+
+  .friend-content {
+    padding-top: 28px;
+  }
+
+  .follow-card {
+    margin-left: 15px;
+    margin-top: -167px;
+    width: 280.75px;
+  }
+
+  .follow-person {
+    padding: 5px;
+  }
+
+  .follow-card {
+    margin-left: 15px;
+  }
+
+  .follow-people-img {
+    width:100%
+  }
+
+  .follow-people-content {
+    padding: 0px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .notify {
+    color: $mandatory-color;
+    margin-left: 38px;
+  }
+
+  .page-info {
+    color: $dark-color;
+    display: none;
+    padding: 12px;
+    h3 {
+      margin-top: 2px;
+    }
+  }
+
+  .prime-text {
+    color: $dark-color;
+    font-size: 16px;
+  }
+
+  .posted-image {
+    width: 100%;
+  }
+
+  .post-content {
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .post-button {
+    float: right;
+  }
+
+  input[type=text] {
+    width: 80%;
+  }
+
+  input[type=url] {
+    width: 80%;
+  }
+  .for-navigation {
+    .nav>li>a:focus, .nav>li>a:hover {
+      text-decoration: none;
+      background-color: transparent !important;
+      border-style: none;
+    }
+
+    .nav>li:hover {
+      background-color: #ebebee;
+    }
+
+    .navbar-inverse {
+      .navbar-nav>li>a {
+        color: $dark-color;
+      }
+    }
+  }
+
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+
+  }
+
+  .edit-details-button {
+    float: right;
+    margin-top: 12px;
+  }
+
+  .edit-occupation-button {
+    float: right;
+    margin-top: 12px;
+  }
+
+  .card {
+    border-radius: 4px;
+  }
+
+  .edit-content {
+    font-size: 14px;
+    margin-top: 10px;
+
+    .check-icon {
+      position: relative;
+      top: -19px;
+    }
+
+    .icons-users {
+      padding: 11px;
+    }
+
+    .buttons {
+      padding: 10px;
+      text-align: center;
+
+      .save {
+        margin-right: 10px;
+      }
+
+    }
+  }
+
+  .add-post {
+    .post-content {
+      font-size: 16px;
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  .timeline {
+    .navbar-nav {
+      width: 100%;
+      margin-left: -29px;
+    }
+    .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: $dark-color;
+    }
+  }
+
+  .secondary-text {
+    color: #868e96;
+    font-size: 13px;
+  }
+  .timeline-content {
+    box-sizing: border-box;
+    height: auto;
+    margin: 8px 0px auto 29px;
+    padding: 0px;
+    padding-top: 34px;
+
+    .posted-content {
+      padding: 8px;
+    }
+
+    .title {
+      color: $dark-color;
+      font-size: 18px;
+    }
+
+    .description {
+      color: #868e96;
+    }
+
+    .timeline-header {
+      padding: 11px;
+    }
+  }
+
+  .timeline-content {
+    li {
+      position: relative;
+      list-style: none;
+    }
+  }
+
+  .timeline {
+    li {
+      .item {
+        min-height: 20px;
+        position: relative;
+        padding: 0 20px 20px 30px;
+        margin-left: 20px;
+        border-left: 3px solid $timeline-span-color;
+      }
+    }
+  }
+
+  .timeline {
+    li:first-child {
+      .item {
+        span {
+          width: 10px;
+          height: 10px;
+          left: -6px;
+          top: -8px;
+        }
+      }
+    }
+  }
+
+  .timeline {
+    li {
+      .item {
+        span {
+          color: $light-color;
+          background-color: $timeline-span-color;
+          border-radius: 50%;
+          position: absolute;
+          left: -20px;
+          top: 8px;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .timeline-post {
+    background-color: $light-color;
+  }
+
+  .timeline-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px)  and (min-width: 469px) {
+  .wrapper {
+      .about-header-text {
+        font-size: 14px;
+      }
+
+      .about-content {
+        font-size: 13px;
+      }
+
+      .card-content {
+        font-size: 11px;
+        position: relative;
+        top: -66px;
+        word-break: break-all;
+        width: 165px;
+        h4 {
+          font-size: 14px;
+        }
+        h5 {
+          font-size: 11px;
+        }
+      }
+
+      .follow-card {
+        display: none;
+        margin-top: 12px;
+        width: 165px;
+      }
+
+      .card-block {
+        padding: 8px;
+      }
+
+      .followers-prime-text {
+        font-size: 15px;
+      }
+
+      .friend-block {
+        height: 120px;
+      }
+
+      .friend-content {
+        padding-top: 2px;
+        h5 {
+          font-size: 14px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .follow-button {
+          font-size: 12px;
+        }
+      }
+
+      .friend-image {
+        width: 100%;
+      }
+
+      .add-friend-button {
+        font-size: 14px;
+      }
+
+      .nav-content {
+        width: auto;
+      }
+
+      .timeline-content {
+        padding-top: 35px;
+      }
+
+    }
+  }
+
+  @media screen and (max-width: 468px)  and (min-width: 376px) {
+    .wrapper {
+      .about {
+        margin-bottom: 20px;
+      }
+
+      .follow-card {
+        display: none;
+      }
+
+      .hero-image {
+        height: 133px;
+      }
+
+      .friend-block {
+        margin-left: -12px;
+      }
+
+      .friends-card {
+        display: none;
+      }
+
+      .friend-content {
+        padding: 0;
+      }
+
+      .friend-image {
+        width: 100%;
+      }
+
+      .card-content {
+        margin: 22px 0px;
+        position: relative;
+        top: -20px;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 137x;
+        margin-bottom: 64px;
+      }
+
+      .followers {
+        h4 {
+          font-size: 24px;
+        }
+        h5 {
+          font-size: 16px;
+        }
+      }
+
+      .followers-prime-text {
+        font-size: 24px;
+      }
+
+      .page-info {
+        display: inline-block;
+      }
+
+      .nav-content {
+        width: 124%;
+      }
+
+      .nav-item {
+        width: 100%;
+        z-index: 20;
+        background-color: $light-color;
+      }
+
+      .timeline {
+        position: relative;
+        top: -54px;
+        .navbar-nav {
+          width: 100%;
+          background-color: $light-color;
+          font-size: 15px;
+        }
+        .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: $dark-color;
+        }
+      }
+
+      .timeline-content {
+        margin: 10px -7px auto -4px;
+        .timeline-header {
+          padding: 6px;
+        }
+        .title {
+          color: $dark-color;
+          font-size: 15px;
+        }
+        .description {
+          color: #868e96;
+          font-size: 11px;
+        }
+        .posted-content {
+          padding: 6px;
+          margin-top: -7px;
+        }
+        .timeline-post {
+          margin-right: -15px;
+        }
+      }
+
+    }
+  }
+
+  @media screen and (max-width: 375px)  and (min-width: 321px) {
+    .wrapper {
+
+      .about {
+        margin-bottom: 20px;
+      }
+
+      .card-content {
+        margin: 22px 0px;
+        position: relative;
+        top: -20px;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 137x;
+        margin-bottom: 64px;
+      }
+
+      .follow-card {
+        display: none;
+      }
+
+      .followers {
+        h4 {
+          font-size: 24px;
+        }
+        h5 {
+          font-size: 16px;
+        }
+      }
+
+      .followers-prime-text {
+        font-size: 24px;
+      }
+
+      .friend-block {
+        margin-left: -12px;
+      }
+
+      .friends-card {
+        display: none;
+      }
+
+      .friend-content {
+        padding: 0;
+      }
+
+      .friend-image {
+        width: 100%;
+      }
+
+      .card-block {
+        padding: 12px;
+      }
+
+      .about {
+        margin-bottom: 0px;
+      }
+
+      .nav-content {
+        width: 124%;
+      }
+
+      .nav-item {
+        background-color: $light-color;
+        width: 100%;
+        z-index: 20;
+      }
+
+      .page-info {
+        display: inline-block;
+      }
+
+      .prime-text {
+        font-size: 11px;
+      }
+
+      .photos-block {
+        background-color: $light-color;
+          .photos-img {
+            height: 100px;
+            width: 24%;
+          }
+        }
+
+
+      .secondary-text {
+        font-size: 9px;
+      }
+
+      .timeline {
+        position: relative;
+        top: -54px;
+        .navbar-nav {
+          background-color: $light-color;
+          font-size: 15px;
+          width: 100%;
+        }
+        .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: $dark-color;
+        }
+      }
+      .timeline-content {
+        margin: 10px -7px auto -4px;
+        .timeline-header {
+          padding: 6px;
+        }
+
+        .title {
+          color: $dark-color;
+          font-size: 15px;
+        }
+
+        .description {
+          color: #868e96;
+          font-size: 11px;
+        }
+
+        .posted-content {
+          padding: 6px;
+          margin-top: -7px;
+        }
+
+        .timeline-post {
+          margin-right: -15px;
+        }
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "photosArr": [
+    {
+      "image": "/images/scenery.jpg"
+    },
+    {
+      "image": "/images/autumn.jpeg"
+    },
+    {
+      "image": "/images/home.jpg"
+    },
+    {
+      "image": "/images/hero-img.jpg"
+    }
+  ]
+}

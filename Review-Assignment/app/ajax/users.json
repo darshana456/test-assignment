@@ -1,0 +1,17 @@
+{
+  "users":
+    { "name": "Josephin Villa",
+      "designation": "Softwear Engineer",
+      "Gender": "Female",
+      "profileImg": "images/profile.jpg",
+      "birthDate": "October 25th, 1990",
+      "maritalStatus": "Single",
+      "location": "New York, USA",
+      "occupation": "Developer",
+      "skills": "C#, JavaScript, Angular",
+      "jobs": "Phoenixcoded",
+      "followings": "0",
+      "followers": "0",
+      "activities": "0"
+    }
+}
